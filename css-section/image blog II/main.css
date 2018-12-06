@@ -1,0 +1,53 @@
+body {
+    font-family: 'Bilbo', cursive;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.image {
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image1 {
+    background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+ 
+.image2 {
+    background-image: url(https://images.pexels.com/photos/839303/pexels-photo-839303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+ 
+.image3 {
+    background-image: url(https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image4 {
+    background-image: url(https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image5 {
+    background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image6 {
+    background-image: url(https://images.pexels.com/photos/206676/pexels-photo-206676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image7 {
+    background-image: url(https://images.pexels.com/photos/259698/pexels-photo-259698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image8 {
+    background-image: url(https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.image9 {
+    background-image: url(https://images.pexels.com/photos/246538/pexels-photo-246538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
