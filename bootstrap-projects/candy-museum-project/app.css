@@ -30,6 +30,10 @@ body {
     margin-top: 50px;
 }
 
+.content:first-of-type {
+    margin-top: 20px;
+}
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -64,6 +68,10 @@ body {
 .navbar.scrolled {
     background: rgb(247, 185, 198); 
     transition: background 500ms;
+}
+
+.bar {
+    background-color: #F7B9C6;
 }
 
 @media (max-width: 1200px) {
