@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do jQuery</title>
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Roboto" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door|Roboto" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>TO DO list</h1>
+        <div id="form">
+            <input id="new-todo" type="text">
+            <button id="btn">Add</button>
+        </div>
+        <ul>
+            <!-- <li><span><i class="fas fa-trash"></i></span> Cool <i class="fas fa-pencil-alt"></i></li> -->
+            <!-- <li><span><i class="far fa-trash-alt"></i></i></span> Cool <i class="fas fa-pencil-alt"></i></li> -->
+            <li><i class="delete fas fa-trash-alt"></i><span class="todo">TO-DO 1</span><i class="edit fas fa-pencil-alt"></i></li>
+            <li><i class="delete fas fa-trash-alt"></i><span class="todo">TO-DO 2</span><i class="edit fas fa-pencil-alt"></i></li>
+            <li><i class="delete fas fa-trash-alt"></i><span class="todo">TO-DO 3</span><i class="edit fas fa-pencil-alt"></i></li>
+           
+        </ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
